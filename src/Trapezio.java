@@ -25,7 +25,7 @@ public class Trapezio {
 	 * @return area
 	 */
 	public float calcoloArea() {
-		return B + b * h / 2;
+		return B + b * h / 2;	//formula sbagliata (mancano le parentesi)
 	}
 
 	public String toString() {
